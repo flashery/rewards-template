@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<!--[if gte mso 9]>
+	<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="date=no" />
+	<meta name="format-detection" content="address=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="x-apple-disable-message-reformatting" />
+	<meta name="color-scheme" content="light dark">
+	<meta name="supported-color-schemes" content="light dark">
+	<title></title>
+	<!--[if gte mso 9]>
+	<style type="text/css" media="all">
+		sup { font-size: 100% !important; }
+	</style>
+	<![endif]-->
+
+	<!--[if !mso]><!-->
+	<style type="text/css" media="all">
+		@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+	</style>
+	<link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+	<!--<![endif]-->
+
+
+	<style type="text/css" media="screen">
+		body { padding:0 !important; margin:0 auto !important; display:block !important; min-width:100% !important; width:100% !important; background:#310D55; -webkit-text-size-adjust:none }
+		a { color:#1a1d1d; text-decoration:none }
+		p { padding:0 !important; margin:0 !important }
+		img { margin: 0 !important; -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized image in Internet Explorer */ }
+
+		table { mso-table-lspace:0pt; mso-table-rspace:0pt; }
+img, a img{ border:0; outline:none; text-decoration:none; }
+#outlook a { padding:0; }
+.ReadMsgBody { width:100%; }
+.ExternalClass { width:100%; }
+div,p,a,li,td,blockquote { mso-line-height-rule:exactly; }
+a[href^=tel],a[href^=sms] { color:inherit; text-decoration:none; }
+.ExternalClass, .ExternalClass p, .ExternalClass td, .ExternalClass div, .ExternalClass span, .ExternalClass font { line-height:100%; }
+a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !important; font-size:inherit !important; font-family:inherit !important; font-weight:inherit !important; line-height:inherit !important; }
+		.btn a { display: block; text-decoration: none; }
+
+		.btnp-15-30 a { padding: 15px 30px; }
+		.btnp-8-12 a { padding: 8px 12px; }
+		.btnp-10-0 a { padding: 10px 0px; }
+
+		.l-white a { color: #fffffe; }
+		.l-black a { color: #1a1d1d; }
+		.l-green a { color: #389295; }
+		.l-green1 a { color: #06868a; }
+		.l-grey a { color: #636d6d; }
+		.l-grey1 a { color: #c8d1d1; }
+		.l-grey2 a { color: #f3f3f3; }
+		.l-grey3 a { color: #5a5a5a; }
+		.l-grey4 a { color: #f3f3f3; }
+		.l-beige a { color: #ececec; }
+
+		.tdn,
+		.tdn a,
+		.tdn span { text-decoration: none; }
+
+
+		:root {
+			color-scheme: light dark;
+			supported-color-schemes: light dark;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			.c-white { color: #fffffe; }
+			.c-black { color: #1a1d1d; }
+			.c-green { color: #389295; }
+			.c-green1 { color: #06868a; }
+			.c-grey { color: #636d6d; }
+			.c-grey1 { color: #c8d1d1; }
+			.c-grey2 { color: #f3f3f3; }
+			.c-grey3 { color: #5a5a5a; }
+			.c-grey4 { color: #f3f3f3; }
+			.c-beige { color: #ececec; }
+
+			.l-white a { color: #fffffe; }
+			.l-black a { color: #1a1d1d; }
+			.l-green a { color: #389295; }
+			.l-green1 a { color: #06868a; }
+			.l-grey a { color: #636d6d; }
+			.l-grey1 a { color: #c8d1d1; }
+			.l-grey2 a { color: #f3f3f3; }
+			.l-grey3 a { color: #5a5a5a; }
+			.l-grey4 a { color: #f3f3f3; }
+			.l-beige a { color: #ececec; }
+
+			.bg-white { color: #fffffe; }
+			.bg-black { color: #1a1d1d; }
+			.bg-green { color: #389295; }
+			.bg-green1 { color: #06868a; }
+			.bg-grey { color: #636d6d; }
+			.bg-grey1 { color: #c8d1d1; }
+			.bg-grey2 { color: #f3f3f3; }
+			.bg-grey3 { color: #5a5a5a; }
+			.bg-grey4 { color: #f3f3f3; }
+			.bg-beige { color: #ececec; }
+			.bg-elecblue { color: #4200FF; }
+		}
+
+		[data-ogsc] .c-white { color: #fffffe !important; }
+		[data-ogsc] .c-black { color: #1a1d1d !important; }
+		[data-ogsc] .c-green { color: #389295 !important; }
+		[data-ogsc] .c-green1 { color: #06868a !important; }
+		[data-ogsc] .c-grey { color: #636d6d !important; }
+		[data-ogsc] .c-grey1 { color: #c8d1d1 !important; }
+		[data-ogsc] .c-grey2 { color: #f3f3f3 !important; }
+		[data-ogsc] .c-grey3 { color: #5a5a5a !important; }
+		[data-ogsc] .c-grey4 { color: #f3f3f3 !important; }
+		[data-ogsc] .c-beige { color: #ececec !important; }
+
+		[data-ogsc] .l-white a { color: #fffffe !important; }
+		[data-ogsc] .l-black a { color: #1a1d1d !important; }
+		[data-ogsc] .l-green a { color: #389295 !important; }
+		[data-ogsc] .l-green1 a { color: #06868a !important; }
+		[data-ogsc] .l-grey a { color: #636d6d !important; }
+		[data-ogsc] .l-grey1 a { color: #c8d1d1 !important; }
+		[data-ogsc] .l-grey2 a { color: #f3f3f3 !important; }
+		[data-ogsc] .l-grey3 a { color: #5a5a5a !important; }
+		[data-ogsc] .l-grey4 a { color: #f3f3f3 !important; }
+		[data-ogsc] .l-beige a { color: #ececec !important; }
+
+		[data-ogsc] .bg-white { color: #fffffe !important; }
+		[data-ogsc] .bg-black { color: #1a1d1d !important; }
+		[data-ogsc] .bg-green { color: #389295 !important; }
+		[data-ogsc] .bg-green1 { color: #06868a !important; }
+		[data-ogsc] .bg-grey { color: #636d6d !important; }
+		[data-ogsc] .bg-grey1 { color: #c8d1d1 !important; }
+		[data-ogsc] .bg-grey2 { color: #f3f3f3 !important; }
+		[data-ogsc] .bg-grey3 { color: #5a5a5a !important; }
+		[data-ogsc] .bg-grey4 { color: #f3f3f3 !important; }
+		[data-ogsc] .bg-beige { color: #ececec !important; }
+		[data-ogsc] .bg-elecblue { color: #4200FF !important; }
+
+		/* Mobile styles */
+		@media only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+
+			.full {
+	        display:block;
+	        width:100%;
+	    }
+
+			p { text-align: center !important; }
+
+			.mfz-28 { font-size: 28px !important; }
+
+			.mlh-48 { line-height: 48px !important; }
+
+			.mpx-20 { padding-left: 20px !important; padding-right: 20px !important; }
+
+			.mpx-35 { padding-left: 35px !important; padding-right: 35px !important; }
+
+			.mpx-60 { padding-left: 60px !important; padding-right: 60px !important; }
+
+			.mpx-80 { padding-left: 80px !important; padding-right: 80px !important; }
+
+			.mpx-100 { padding-left: 100px !important; padding-right: 100px !important; }
+
+			.mpx-120 { padding-left: 120px !important; padding-right: 120px !important; }
+
+			.mpx-160 { padding-left: 160px !important; padding-right: 100px !important; }
+
+			.mpt-60 { padding-top: 60px !important; }
+
+			.mfz-26 { font-size: 26px !important; }
+
+			.mlh-33 { line-height: 33px !important; }
+
+			.mpb-25 { padding-bottom: 25px !important; }
+
+			.mfz-20 { font-size: 20px !important; }
+
+			.mlh-24 { line-height: 24px !important; }
+
+			.mpb-60 { padding-bottom: 60px !important; }
+
+			.mpb-40 { padding-bottom: 40px !important; }
+
+			.mfz-11 { font-size: 11px !important; }
+
+			.mlh-13 { line-height: 13px !important; }
+
+			.mlh-15 { line-height: 15px !important; }
+
+			.mlh-26 { line-height: 26px !important; }
+
+			.mfz-16 { font-size: 16px !important; }
+
+			.mfz-15 { font-size: 16px !important; }
+
+			.mlh-21 { line-height: 21px !important; }
+
+			.mpt-40 { padding-top: 40px !important; }
+
+			.mpy-45 { padding-top: 45px !important; padding-bottom: 45px !important; }
+
+			.mpb-20 { padding-bottom: 20px !important; }
+
+			.mfz-17 { font-size: 17px !important; }
+
+			.mpy-40 { padding-top: 40px !important; padding-bottom: 40px !important; }
+
+			.mpy-30 { padding-top: 30px !important; padding-bottom: 30px !important; }
+
+			.mpy-20 { padding-top: 20px !important; padding-bottom: 20px !important; }
+
+			.mlh-20 { line-height: 20px !important; }
+
+			.mpb-5 { padding-bottom: 5px !important; }
+
+			.mpb-10 { padding-bottom: 10px !important; }
+
+			.mpt-45 { padding-top: 45px !important; }
+
+			.mlh-30 { line-height: 30px !important; }
+
+			.mfz-12 { font-size: 12px !important; }
+
+			.mfz-13 { font-size: 13px !important; }
+
+			.mpx-0 { padding-left: 0px !important; padding-right: 0px !important; }
+
+			.mpb-30 { padding-bottom: 30px !important; }
+
+			.mpt-20 { padding-top: 20px !important; }
+
+			.mpt-0 { padding-top: 0px !important; }
+
+			.mpb-0 { padding-bottom: 0px !important; }
+
+			.mpy-0 { padding-top: 0px !important; padding-bottom: 0px !important; }
+
+			u + body .gwfw { width:100% !important; width:100vw !important; }
+
+			.m-radius-0 { border-radius: 0px !important; }
+
+			.td,
+			.m-shell { width: 100% !important; min-width: 100% !important; }
+
+			.mt-left { text-align: left !important; }
+			.mt-center { text-align: center !important; }
+			.mt-right { text-align: right !important; }
+
+			.me-left { margin-right: auto !important; }
+			.me-center { margin: 0 auto !important; }
+			.me-right { margin-left: auto !important; }
+
+			.mh-auto { height: auto !important; }
+			.mw-auto { width: auto !important; }
+
+			.fluid-img img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+			.fluid-img-height-29 img { height: 29px !important; max-height: 29px !important; width: auto !important; }
+			.btn-max-144 { width: 144px !important; max-width: 144px !important; }
+
+			.column,
+			.column-top,
+			.column-bottom,
+			.column-dir,
+			.column-dir-top,
+			.column-dir-bottom { float: left !important; width: 100% !important; display: block !important; }
+
+			.column-right,
+			.column-top-right,
+			.column-bottom-right,
+			.column-dir-right,
+			.column-dir-top-right,
+			.column-dir-bottom-right { float: right !important; width: 100% !important; display: block !important; }
+
+			.kmMobileStretch { float: left !important; width: 100% !important; display: block !important; padding: 0 !important; padding-bottom: 15px !important; }
+
+			.m-hide { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; min-height: 0 !important; }
+			.m-block { display: block !important; }
+
+			.mw-15 { width: 15px !important; }
+			.mw-20 { width: 20px !important; }
+
+			.mw-img-12,
+			.mw-img-12 img { width: 12px !important; height: auto !important; }
+			.mw-img-46,
+			.mw-img-46 img { width: 46px !important; height: auto !important; }
+			.mw-img-54,
+			.mw-img-54 img { width: 54px !important; height: auto !important; }
+			.mw-img-70,
+			.mw-img-70 img { width: 70px !important; height: auto !important; }
+			.mw-img-90,
+			.mw-img-90 img { width: 90px !important; height: auto !important; }
+			.mw-img-160,
+			.mw-img-160 img { width: 160px !important; height: auto !important; }
+
+			.mw-2p { width: 2% !important; }
+			.mw-4p { width: 4% !important; }
+			.mw-32p { width: 32% !important; }
+			.mw-48p { width: 48% !important; }
+			.mw-49p { width: 49% !important; }
+			.mw-50p { width: 50% !important; }
+			.mw-100p { width: 100% !important; }
+
+			.d-hide { display: block !important; max-height: 100% !important; max-width: 100% !important; min-width: 100% !important; overflow: auto !important; visibility: visible !important; opacity: 1 !important; }
+		}
+	</style>
+</head>
+<body class="body bg-elecblue" style="padding:0 !important; margin:0 auto !important; display:block !important; min-width:100% !important; width:100% !important; background:#310D55; -webkit-text-size-adjust:none; color:#600DD0;">
+		<!--[if mso]>
+		<style type="text/css">
+		body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+		</style>
+		<![endif]-->
+		<center>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; width: 100%; height: 100%; color:#310D55;padding-top:30px; padding-bottom:30px;" bgcolor="#310D55" class="gwfw bg-elecblue mpy-0">
+			<tr>
+				<td style="margin: 0; padding: 0; width: 100%; height: 100%;" align="center" valign="top">
+					<table width="600" border="0" cellspacing="0" cellpadding="0" class="m-shell" >
+						<tr>
+							<td class="td m-radius-0" style="width:700px; min-width:700px; font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="bg-white m-radius-0" bgcolor="#ffffff" style="color:#ffffff;border-radius:20px;">
+									<!-- Header -->
+									<tr>
+									  <td class="pt-40 px-85 mpx-20 mpt-30" bgcolor="#F7FAFF" style="padding-top: 24px; padding-bottom: 24px; padding-left: 40px; padding-right: 40px;">
+									    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									      <tr>
+									        <td align="left">
+									          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									            <tr>
+									              <!-- Logo -->
+									              <td valign="top">
+									                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+									                  <tr>
+									                    <td width="112" style="font-size:12px; line-height:18px; font-family:Arial, Helvetica, sans-serif; text-align:left; color:#000000;padding-right:20px;">
+									                      <div class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><img class="fluid-img" src="http://cdn.mcauto-images-production.sendgrid.net/e46dd2de90fe19b8/9977de24-7b8c-4286-987d-3d13a0cbdd70/370x96.png" height="29"  border="0" alt="Karta" valign="middle" /></div>
+									                    </td>
+									                    <td style="border-left: solid 1px #172136; background: #F7FAFF" bgcolor="#F7FAFF" width="20">
+									                      &nbsp;
+									                    </td>
+									                    <td height="29" style="font-size:12px; line-height:18px; font-family:Arial, Helvetica, sans-serif; text-align:left; color:#000000;">
+									                      <div class="fluid-img-height-29" style="font-size:0pt; line-height:0pt; text-align:left;"><img class="fluid-img-height-29" src="${image_header}" border="0" height="29" alt="${company_name}" valign="middle" /></div>
+									                    </td>
+									                  </tr>
+									                </table>
+									              </td>
+									            </tr>
+									          </table>
+									        </td>
+									      </tr>
+									    </table>
+									  </td>
+									</tr>
+									<!-- END Header -->
+									<!-- Copy section -->
+									<tr>
+										<td class="mpx-20 mpb-20" style="padding-bottom:30px;padding-top: 24px; padding-left: 40px; padding-right: 40px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td class="text-18 c-green mpb-20" style="font-size:16px; line-height:24px; font-family: 'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
+														Hey ${first_name},
+													</td>
+												</tr>
+												<tr>
+													<td class="text-18 c-green" style="font-size:16px; line-height:24px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
+														${company_name} has sent you a $${price} gift card and has the below message for you. You have until ${claim_date} to claim and activate your gift card.
+													</td>
+												</tr>
+												<tr>
+													<td class="text-18 c-green" style="font-size:16px; line-height:24px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;">
+														Your card can be spent in-store and online at most Australian businesses that accept Mastercard payments.
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- END Copy section -->
+									<!-- Receipt details section -->
+									<tr>
+										<td class="mpx-20 mpb-20" style="padding-bottom: 20px; padding-left: 40px; padding-right: 40px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td class="text-18 c-green mpb-20" bgcolor="#F7FAFF" style="color:#F7FAFF;font-size:24px; line-height:32px; font-family: 'Khula', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-top: 32px; padding-bottom: 32px;padding-left: 32px; padding-right: 32px;border-radius:22px;">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td class="text-18 c-green mpb-20" style="font-size:16px; line-height:24px; font-family: 'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
+																	${message}
+																</td>
+															</tr>
+															<tr>
+																<td class="text-18 c-green mpb-20" style="font-size:16px; line-height:24px; font-family: 'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;">
+																	<strong class="fw-600" style="font-weight: 600;">From ${company_name}</strong>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- END Receipt details -->
+									<!-- Card image -->
+									<tr>
+										<td class="mpx-20 mpb-20" style="padding-top: 14px;padding-bottom: 24px; padding-left: 40px; padding-right: 40px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td align="center">
+														<table border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td class="img" width="250" style="font-size:0pt; line-height:0pt; text-align:left;">
+																	<img src="${card_image_url}" width="250"  border="0" alt="Your gift card" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:10px;" />
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- END Card image -->
+									<!-- Full width button -->
+									<tr>
+									  <td align="center" class="mpx-100" style="padding-left: 278px; padding-right: 278px; padding-bottom: 30px;">
+									    <!-- Button -->
+									    <table height="48" width="100%" border="0" cellspacing="0" cellpadding="0">
+									      <tr>
+									        <td class="btn btnp-10-0 btn-max-144 c-white l-white bdrs-10 bg-green1" bgcolor="#310d55" style="font-family:'Rubik', Arial, Helvetica, sans-serif; font-weight: 500;text-align:center; font-size: 16px; line-height: 21px; mso-padding-alt:10px 0px; border-radius: 10px; color:#310d55;">
+									          <a clicktracking=off href="${claim_url}" target="_blank" class="link c-white" style="display: block; padding: 14px 0px; text-decoration:none; color:#ffffff;" valign="middle">
+									            <span class="link c-white" style="text-decoration:none; color:#ffffff;">Claim now</span>
+									          </a>
+									        </td>
+									      </tr>
+									    </table>
+									    <!-- END Button -->
+									  </td>
+									</tr>
+									<!-- END Full width button -->
+									<!-- Powering the Art of Gifting -->
+									<tr>
+										<td class="mpx-20" style="padding-bottom: 30px; padding-left: 40px; padding-right: 40px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td align="center">
+														<table border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td class="fluid-img" width="620" style="font-size:0pt; line-height:0pt; text-align:left;">
+																	<div class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><img class="fluid-img" src="http://cdn.mcauto-images-production.sendgrid.net/e46dd2de90fe19b8/a01dbd15-536b-4d99-83fa-7f66933ec5c1/1240x320.png" width="620"  border="0" alt="Powering the Art of Gifting" /></div>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- END Powering the Art of Gifting -->
+									<!-- Footer -->
+									<tr>
+										<td class="mpx-20" style="padding-left: 40px; padding-right: 40px; padding-bottom:30px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td style="font-size:12px; line-height:18px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
+														<strong class="fw-700" style="font-weight: 700;color:#000000;">Contact Us</strong><br />
+														We’re here to support you. Get in touch by emailing <a href="mailto:support@karta.com.au" target="_blank" style="text-decoration:none; color:#600DD0;"><span style="text-decoration:none; color:#600DD0;">support@karta.com.au</span></a>.
+													</td>
+												</tr>
+												<tr>
+													<td style="font-size:12px; line-height:18px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
+														<strong class="fw-700" style="font-weight: 700;color:#000000;">Important Information</strong><br />
+														Gift Cards are treated like cash and can’t be replaced if lost or stolen. Read the full <a href="https://www.karta.com.au/terms-conditions" target="_blank" style="text-decoration:none; color:#600DD0;"><span style="text-decoration:none; color:#600DD0;">Terms & Conditions</span></a>.
+													</td>
+												</tr>
+												<tr>
+													<td style="font-size:12px; line-height:18px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
+														By the way, we're Karta. We meant to send this email to <a class="link c-grey3" style="text-decoration:none; color:#172136;">${email}</a> on behalf of ${company_name}. If that's not you, we apologise.
+													</td>
+												</tr>
+												<tr>
+													<td style="font-size:12px; line-height:18px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;">
+														545490 Ops Pty Ltd (ABN 48 659 671 315) known as Mastercard Digital Gift Card, 20 Olympus Drive, St Clair NSW 2759 Australia. &copy; 2022 545490 Ops Pty Ltd. All rights reserved.
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- END Footer -->
+									<!-- Social icons -->
+									<tr>
+										<td class="pt-40 px-85 mpx-20 mpt-30" bgcolor="#F7FAFF" style="color:#F7FAFF;padding-top: 24px; padding-bottom: 24px; padding-left: 40px; padding-right: 40px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td align="right">
+														<table width="64" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<!-- Logo -->
+																<td valign="top">
+																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																		<tr>
+																			<td class="img" width="24" style="font-size:0pt; line-height:0pt; text-align:right;padding-right:16px;	">
+																				<div class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:right;"><a href="https://www.instagram.com/kartagiftcards/" target="_blank" style="font-size:12px; line-height:18px; font-family:Arial, Helvetica, sans-serif; text-align:left; color:#000000;text-decoration:none;"><img class="fluid-img" src="http://cdn.mcauto-images-production.sendgrid.net/e46dd2de90fe19b8/b27724cd-f2d5-4b58-bae2-47a56c3fcbf4/72x72.png" width="24"  border="0" alt="Karta on Instagram" /></a></div>
+																			</td>
+																			<td class="img" width="24" style="font-size:0pt; line-height:0pt; text-align:right;">
+																				<div class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:right;"><a href="https://www.linkedin.com/company/kartagiftcards/" target="_blank" style="font-size:12px; line-height:18px; font-family:Arial, Helvetica, sans-serif; text-align:left; color:#000000;text-decoration:none;"><img class="fluid-img" src="http://cdn.mcauto-images-production.sendgrid.net/e46dd2de90fe19b8/1d80f576-2f04-4f6e-9d2e-553b33706459/72x72.png" width="24"  border="0" alt="Karta on LinkedIn" /></a></div>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<!-- END Social icons -->
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+</html>
