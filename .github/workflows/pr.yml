@@ -11,7 +11,8 @@ jobs:
       - uses: actions/checkout@master
       - name: Create env file
         run: |
-          echo ${{secrets}}
+          json = ${{secrets}}
+          echo $json
           touch .env
           echo SENDGRID_API_KEY="${{ secrets.SENDGRID_API_KEY }}\n"  >> .env
           echo FILE_PATH=${{ vars.FILE_PATH }} >> .env
