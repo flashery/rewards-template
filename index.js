@@ -3,7 +3,7 @@ const fs = require('fs')
 const { get, editTemplateVersion } = require('./Request')
 const client = require('@sendgrid/client');
 
-console.log('====================SENDGRID_API_KEY=================================', SENDGRID_API_KEY)
+console.log('====================SENDGRID_API_KEY=================================', process.env.SENDGRID_API_KEY)
 
 client.setApiKey(process.env.SENDGRID_API_KEY)
 
