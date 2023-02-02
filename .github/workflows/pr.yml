@@ -9,10 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Snyc Template Versions
-        env:
-            SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-            FILE_PATH: ${{ secrets.FILE_PATH }}
+      - name: Create env file
+        run: |
+          touch .env
+          echo ENGINE_API_KEY=${{ secrets.ENGINE_API_KEY }} >> .env
+          echo FILE_PATH=${{ secrets.FILE_PATH }} >> .env
+      - name: Create env file
         run: |
           npm install
+      - name: Snyc Template Versions
+        run: |
           node index.js ${{ secrets.CAMPAIGN_TEMPLATE_ID }}
