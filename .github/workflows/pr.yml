@@ -9,14 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Create env file
-        run: |
-          touch .env
-          echo SENDGRID_API_KEY=${{ secrets.SENDGRID_API_KEY }}  >> .env
-          cat .env
       - name: Install Dependencies
         run: |
           npm install
       - name: Snyc Template Versions
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }} 
         run: |
           node index.js ${{ vars.CAMPAIGN_TEMPLATE_ID }}
