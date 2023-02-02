@@ -1,0 +1,40 @@
+name: PR-CI-CD
+
+on:
+  pull_request:
+    branches: [develop, main]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    steps:
+      - uses: actions/checkout@master
+      - name: Unit tests
+        run: |
+          npm ci
+          npm run lint:quiet
+          npm run test
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-southeast-2
+
+      - name: Validate SAM Template
+        run: |
+          export AWS_ACCOUNT_ID=${{ secrets.AWS_ACCOUNT_ID_NONPROD }}
+          export AWS_ROLE=InfraDeployAccess
+          export AWS_ENV=dev
+          make validate
+
+  dependabot-tests:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    steps:
+      - uses: actions/checkout@master
+      - name: Unit tests
+        run: |
+          npm ci
+          npm run test

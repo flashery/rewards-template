@@ -345,7 +345,7 @@ a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !impo
 									                      &nbsp;
 									                    </td>
 									                    <td height="29" style="font-size:12px; line-height:18px; font-family:Arial, Helvetica, sans-serif; text-align:left; color:#000000;">
-									                      <div class="fluid-img-height-29" style="font-size:0pt; line-height:0pt; text-align:left;"><img class="fluid-img-height-29" src="${image_header}" border="0" height="29" alt="${company_name}" valign="middle" /></div>
+									                      <div class="fluid-img-height-29" style="font-size:0pt; line-height:0pt; text-align:left;"><img class="fluid-img-height-29" src="{{image_header}}" border="0" height="29" alt="{{company_name}}" valign="middle" /></div>
 									                    </td>
 									                  </tr>
 									                </table>
@@ -364,12 +364,12 @@ a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !impo
 											<table width="100%" border="0" cellspacing="0" cellpadding="0">
 												<tr>
 													<td class="text-18 c-green mpb-20" style="font-size:16px; line-height:24px; font-family: 'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
-														Hey ${first_name},
+														Hey {{first_name}},
 													</td>
 												</tr>
 												<tr>
 													<td class="text-18 c-green" style="font-size:16px; line-height:24px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
-														${company_name} has sent you a $${price} gift card and has the below message for you. You have until ${claim_date} to claim and activate your gift card.
+														{{company_name}} has sent you a ${{price}} gift card and has the below message for you. You have until {{claim_date}} to claim and activate your gift card.
 													</td>
 												</tr>
 												<tr>
@@ -390,12 +390,12 @@ a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !impo
 														<table width="100%" border="0" cellspacing="0" cellpadding="0">
 															<tr>
 																<td class="text-18 c-green mpb-20" style="font-size:16px; line-height:24px; font-family: 'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
-																	${message}
+																	{{message}}
 																</td>
 															</tr>
 															<tr>
 																<td class="text-18 c-green mpb-20" style="font-size:16px; line-height:24px; font-family: 'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;">
-																	<strong class="fw-600" style="font-weight: 600;">From ${company_name}</strong>
+																	<strong class="fw-600" style="font-weight: 600;">From {{company_name}}</strong>
 																</td>
 															</tr>
 														</table>
@@ -414,7 +414,7 @@ a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !impo
 														<table border="0" cellspacing="0" cellpadding="0">
 															<tr>
 																<td class="img" width="250" style="font-size:0pt; line-height:0pt; text-align:left;">
-																	<img src="${card_image_url}" width="250"  border="0" alt="Your gift card" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:10px;" />
+																	<img src="{{card_image_url}}" width="250"  border="0" alt="Your gift card" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border-radius:10px;" />
 																</td>
 															</tr>
 														</table>
@@ -431,7 +431,7 @@ a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !impo
 									    <table height="48" width="100%" border="0" cellspacing="0" cellpadding="0">
 									      <tr>
 									        <td class="btn btnp-10-0 btn-max-144 c-white l-white bdrs-10 bg-green1" bgcolor="#310d55" style="font-family:'Rubik', Arial, Helvetica, sans-serif; font-weight: 500;text-align:center; font-size: 16px; line-height: 21px; mso-padding-alt:10px 0px; border-radius: 10px; color:#310d55;">
-									          <a clicktracking=off href="${claim_url}" target="_blank" class="link c-white" style="display: block; padding: 14px 0px; text-decoration:none; color:#ffffff;" valign="middle">
+									          <a clicktracking=off href="{{claim_url}}" target="_blank" class="link c-white" style="display: block; padding: 14px 0px; text-decoration:none; color:#ffffff;" valign="middle">
 									            <span class="link c-white" style="text-decoration:none; color:#ffffff;">Claim now</span>
 									          </a>
 									        </td>
@@ -478,7 +478,7 @@ a[x-apple-data-detectors] { color:inherit !important; text-decoration:none !impo
 												</tr>
 												<tr>
 													<td style="font-size:12px; line-height:18px; font-family:'Rubik', Arial, Helvetica, sans-serif; text-align:left; color:#172136;padding-bottom:20px;">
-														By the way, we're Karta. We meant to send this email to <a class="link c-grey3" style="text-decoration:none; color:#172136;">${email}</a> on behalf of ${company_name}. If that's not you, we apologise.
+														By the way, we're Karta. We meant to send this email to <a class="link c-grey3" style="text-decoration:none; color:#172136;">{{email}}</a> on behalf of {{company_name}}. If that's not you, we apologise.
 													</td>
 												</tr>
 												<tr>
