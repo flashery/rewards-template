@@ -12,7 +12,7 @@ jobs:
       - name: Create env file
         run: |
           touch .env
-          echo ENGINE_API_KEY="${{ secrets.ENGINE_API_KEY }}\n"  >> .env
+          echo SENDGRID_API_KEY="${{ secrets.SENDGRID_API_KEY }}\n"  >> .env
           echo FILE_PATH=${{ vars.FILE_PATH }} >> .env
           cat .env
       - name: Install Dependencies
