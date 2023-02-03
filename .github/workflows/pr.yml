@@ -13,7 +13,7 @@ jobs:
           echo $env_var
         env:
           # Setting an environment variable with the value of a configuration variable
-          env_var: ${{ vars }}
+          env_var: asdadadasdad
       - name: Install Dependencies
         run: |
           npm install
