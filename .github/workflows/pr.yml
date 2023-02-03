@@ -19,7 +19,7 @@ jobs:
           SENDGRID_API_KEY3: ${{ vars.FILE_PATH }} 
         run: |
           
-          echo SENDGRID_API_KEY1
-          echo SENDGRID_API_KEY2
-          echo SENDGRID_API_KEY3
+          echo $SENDGRID_API_KEY1
+          echo $SENDGRID_API_KEY2
+          echo $SENDGRID_API_KEY3
           node index.js ${{ vars.CAMPAIGN_TEMPLATE_ID }}
