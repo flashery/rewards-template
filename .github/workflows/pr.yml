@@ -15,8 +15,10 @@ jobs:
       - name: Snyc Template Versions
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          FILE_PATH: ${{ vars.FILE_PATH }}
           CAMPAIGN_TEMPLATE_ID: ${{ vars.CAMPAIGN_TEMPLATE_ID }}
         run: |
           echo $SENDGRID_API_KEY
+          echo $FILE_PATH
           echo $CAMPAIGN_TEMPLATE_ID
           node index.js $CAMPAIGN_TEMPLATE_ID
