@@ -9,7 +9,10 @@ exports.getAll = async () => {
 
     try {
         const response = await client.request(request)
-        console.log(response.statusCode, JSON.stringify(response.body));
+        console.log(JSON.stringify({
+            status: response.statusCode,
+            data: response.body
+        }));
         return response.body
     } catch (error) {
         console.error(error);
@@ -25,6 +28,10 @@ exports.get = async (template_id) => {
 
     try {
         const response = await client.request(request)
+        console.log(JSON.stringify({
+            status: response.statusCode,
+            data: response.body
+        }));
         return response[0].body
     } catch (error) {
         console.error(error);
@@ -40,7 +47,10 @@ exports.getTemplateVersion = async (template_id, version_id) => {
 
     try {
         const response = await client.request(request)
-        console.log(response.statusCode, JSON.stringify(response.body));
+        console.log(JSON.stringify({
+            status: response.statusCode,
+            data: response.body
+        }));
         return response.body
     } catch (error) {
         console.error(error);
@@ -48,12 +58,19 @@ exports.getTemplateVersion = async (template_id, version_id) => {
     };
 }
 
-exports.editTemplateVersion = async (version) => {
+exports.updateTemplateVersion = async (version, html_content) => {
 
     const { template_id, id } = version;
 
     delete version.id;
     delete version.editor;
+
+    // Replace the html_content with the one we have in this repo
+    // have in this repo inside templates directory
+    version.html_content = html_content
+
+    // Activate this version of template
+    version.active = 1;
 
     const request = {
         url: `/v3/templates/${template_id}/versions/${id}`,
@@ -62,7 +79,11 @@ exports.editTemplateVersion = async (version) => {
     }
 
     try {
-        const response = await client.request(request)
+        const response = await client.request(request);
+        console.log(JSON.stringify({
+            status: response.statusCode,
+            data: response.body
+        }));
         return response.body
     } catch (error) {
         console.error(error);

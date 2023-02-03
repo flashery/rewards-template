@@ -1,6 +1,6 @@
 require('dotenv').config()
 const fs = require('fs')
-const { get, editTemplateVersion } = require('./Request')
+const { get, updateTemplateVersion } = require('./Request')
 
 
 async function updateTemplate() {
@@ -12,12 +12,10 @@ async function updateTemplate() {
   // Get the latest and updated version of the template
   const version = template.versions[template.versions.length - 1]
 
-  // Replace the html_content with the one we have in this repo
-  // have in this repo inside templates directory
-  version.html_content = await getHtmlContent()
-
+  const html_content = await getHtmlContent()
+  
   // Update the template version
-  const update = await editTemplateVersion(version)
+  const update = await updateTemplateVersion(version, html_content)
 
 }
 
