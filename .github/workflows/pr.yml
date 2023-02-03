@@ -10,7 +10,6 @@ jobs:
       - uses: actions/checkout@master
       - name: Install Dependencies
         run: |
-          echo $SENDGRID_API_KEY
           npm install
       - name: Snyc Template Versions
         env:
@@ -18,7 +17,4 @@ jobs:
           FILE_PATH: ${{ vars.FILE_PATH }}
           CAMPAIGN_TEMPLATE_ID: ${{ vars.CAMPAIGN_TEMPLATE_ID }}
         run: |
-          echo $SENDGRID_API_KEY
-          echo $FILE_PATH
-          echo $CAMPAIGN_TEMPLATE_ID
           node index.js $CAMPAIGN_TEMPLATE_ID

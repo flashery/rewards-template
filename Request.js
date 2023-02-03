@@ -1,4 +1,7 @@
-exports.getAll = async (client) => {
+const client = require('@sendgrid/client');
+client.setApiKey(process.env.SENDGRID_API_KEY)
+
+exports.getAll = async () => {
     const request = {
         url: `/v3/templates`,
         method: 'GET',
@@ -14,7 +17,7 @@ exports.getAll = async (client) => {
     };
 }
 
-exports.get = async (client, template_id) => {
+exports.get = async (template_id) => {
     const request = {
         url: `/v3/templates/${template_id}`,
         method: 'GET',
@@ -29,7 +32,7 @@ exports.get = async (client, template_id) => {
     };
 }
 
-exports.getTemplateVersion = async (client, template_id, version_id) => {
+exports.getTemplateVersion = async (template_id, version_id) => {
     const request = {
         url: `/v3/templates/${template_id}/versions/${version_id}`,
         method: 'GET',
@@ -45,7 +48,7 @@ exports.getTemplateVersion = async (client, template_id, version_id) => {
     };
 }
 
-exports.editTemplateVersion = async (client, version) => {
+exports.editTemplateVersion = async (version) => {
 
     const { template_id, id } = version;
 
