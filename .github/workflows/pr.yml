@@ -5,7 +5,7 @@ on:
     branches: [main]
 env:
   # Setting an environment variable with the value of a configuration variable
-  env_var: ${{ vars.FILE_PATH }}
+  env_var: ${{ vars }}
 jobs:
   tests:
     runs-on: ubuntu-latest
