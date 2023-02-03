@@ -1,0 +1,20 @@
+name: PR-CI-CD
+
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Install Dependencies
+        run: |
+          npm install
+      - name: Snyc Template Versions
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          FILE_PATH: ${{ vars.FILE_PATH }}
+          CAMPAIGN_TEMPLATE_ID: ${{ vars.CAMPAIGN_TEMPLATE_ID }}
+        run: |
+          node index.js $CAMPAIGN_TEMPLATE_ID
