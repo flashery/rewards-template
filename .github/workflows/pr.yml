@@ -11,11 +11,15 @@ jobs:
       - uses: actions/checkout@master
       - name: Install Dependencies
         run: |
-          echo ${{ vars.CAMPAIGN_TEMPLATE_ID }}
-          echo ${{ vars.FILE_PATH }}
           npm install
       - name: Snyc Template Versions
         env:
-          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }} 
+          SENDGRID_API_KEY1: ${{ secrets.SENDGRID_API_KEY }} 
+          SENDGRID_API_KEY2: ${{ vars.CAMPAIGN_TEMPLATE_ID }} 
+          SENDGRID_API_KEY3: ${{ vars.FILE_PATH }} 
         run: |
+          
+          echo SENDGRID_API_KEY1
+          echo SENDGRID_API_KEY2
+          echo SENDGRID_API_KEY3
           node index.js ${{ vars.CAMPAIGN_TEMPLATE_ID }}
