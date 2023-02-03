@@ -4,9 +4,7 @@ on:
   pull_request:
     branches: [main]
 env:
-  SENDGRID_API_KEY: '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'
-  FILE_PATH: './templates/index.html'
-  CAMPAIGN_TEMPLATE_ID: 'd-89685e08ec7347cbbd8f94f771f52fd7'
+  SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -14,12 +12,12 @@ jobs:
       - uses: actions/checkout@master
       - name: Create env file
         run: |
-          echo $env_var
+          echo $SENDGRID_API_KEY
       - name: Install Dependencies
         run: |
-          echo $env_var
+          echo $SENDGRID_API_KEY
           npm install
       - name: Snyc Template Versions
         run: |
-          echo $env_var
+          echo $SENDGRID_API_KEY
           node index.js $CAMPAIGN_TEMPLATE_ID
