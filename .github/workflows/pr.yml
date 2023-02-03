@@ -11,6 +11,8 @@ jobs:
       - uses: actions/checkout@master
       - name: Install Dependencies
         run: |
+          echo ${{ vars.CAMPAIGN_TEMPLATE_ID }}
+          echo ${{ vars.FILE_PATH }}
           npm install
       - name: Snyc Template Versions
         env:
