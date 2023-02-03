@@ -16,7 +16,9 @@ jobs:
           env_var: asdadadasdad
       - name: Install Dependencies
         run: |
+          echo $env_var
           npm install
       - name: Snyc Template Versions
         run: |
+          echo $env_var
           node index.js ${{ vars.CAMPAIGN_TEMPLATE_ID }}
