@@ -3,7 +3,9 @@ name: PR-CI-CD
 on:
   pull_request:
     branches: [main]
-
+env:
+  # Setting an environment variable with the value of a configuration variable
+  env_var: ${{ vars.FILE_PATH }}
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -11,14 +13,9 @@ jobs:
       - uses: actions/checkout@master
       - name: Create env file
         run: |
-          touch .env
-          echo AAAAAA="${{ secrets.SENDGRID_API_KEY }}\n"  >> .env
-          echo DDDDDD=${{ vars.FILE_PATH }} >> .env
-          cat .env
+          echo $env_var
       - name: Install Dependencies
         run: |
-          echo $AAAAAA
-          echo $DDDDDD
           npm install
       - name: Snyc Template Versions
         run: |
